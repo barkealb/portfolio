@@ -18,13 +18,28 @@
     -webkit-clip-path: none;
   }
 
+  .form-group {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+  }
+
+  .btn-secondary {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 12px;
+  }
+
   .contact-wrapper {
     margin-top: 3.2rem;
     padding: 0 2rem;
     backface-visibility: hidden;
+    text-align: left;
 
     &__text {
       margin-bottom: 2.5rem;
+      
     }
 
     &__text,
