@@ -37,16 +37,19 @@
       }
     }
 
+
     .__skill-wrapper {
+      width: 100%;
       ul {
         display: flex;
+        flex-wrap: wrap;
+        width: 100%;
         flex-direction: row; 
         justify-content:flex-start;
         align-items: center;
         list-style: none;
         gap: 5%;
         padding: 5%;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         li {
           background-color: #fff;
           border-radius: 50%;
@@ -63,14 +66,14 @@
           }
     
           @media (min-width: 576px) and (max-width: 767px) { // Tablet Portrait
-            // padding-bottom: 6.4rem;
+
           }
     
           @media (max-width: 575px) { // Mobile
             // padding-bottom: 6.4rem;
             text-align: center;
-            width: 100%;
-            margin: 10px;
+            // width: 100%;
+            // margin: 10px;
             img {
               max-width: 3rem;
             }
